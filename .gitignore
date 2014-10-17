@@ -10,3 +10,48 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
+package paketgaul;
+
+import java.util.Scanner;
+
+
+
+
+
+public class NewMain {
+
+
+    
+    
+public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+String nama,npm,kelas,lahir,alamat;
+
+System.out.print("masukan nama            :");
+nama = input.nextLine();
+
+System.out.print("masukan npm             :");
+npm = input.nextLine();
+
+System.out.print("masukan kelas           :");
+kelas = input.nextLine();   
+
+System.out.print("masukan tanggal lahir   :");
+lahir = input.nextLine();
+
+System.out.print("masukan alamat          :");
+alamat = input.nextLine();
+
+input.nextLine();
+
+System.out.println("nama anda           :"+nama);
+System.out.println("npm anda            :"+npm);
+System.out.println("kelas anda          :"+kelas);
+System.out.println("tanggal lahir anda  :"+lahir);
+System.out.println("alamat anda         :"+alamat);
+}
+    
+}
